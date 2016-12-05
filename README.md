@@ -2,9 +2,6 @@
 
 TodoMVC using Cloudant and Compose for MongoDB services running on Bluemix.
 
-Refer to the [README.md](../README.md) file in the parent directory
-for general instructions regarding this application.
-
 ## How it Works
 
 1. Add items to the todo list by typing into the box and pressing `Enter`
@@ -30,3 +27,10 @@ for general instructions regarding this application.
 ```
 git clone https://github.com/hkgian/bluemix-node-todo.git
 ```
+
+5. Change the directory to the node directory
+```
+cd node
+```
+
+6. create a MongoDB instance on Bluemix. This task can be carried out with the web interface or with the CLI. we will explore both options:

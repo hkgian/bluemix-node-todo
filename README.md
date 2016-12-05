@@ -51,7 +51,7 @@ cf push
 
 
 
-[bluemix_signup_url]: https://console.ng.bluemix.net/
+[bluemix_signup_url]: https://console.eu-gb.bluemix.net/registation
 [cloud_foundry_url]: https://github.com/cloudfoundry/cli
 [download_node_url]: https://nodejs.org/download/
 [deploy_track_url]: https://github.com/cloudant-labs/deployment-tracker

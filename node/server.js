@@ -24,19 +24,7 @@ const cfenv = require('cfenv');
 const app = express();
 const bodyParser = require('body-parser')
 
-// load local VCAP configuration
-let vcapLocal = null
-try {
-  vcapLocal = require('./vcap-local.json');
-  console.log("Loaded local VCAP", vcapLocal);
-} catch (e) {
-  console.error(e);
-}
-
-const appEnvOpts = vcapLocal ? {
-  vcap: vcapLocal
-} : {}
-const appEnv = cfenv.getAppEnv(appEnvOpts);
+const appEnv = cfenv.getAppEnv();
 
 let db;
 if (appEnv.services['cloudantNoSQLDB']) {

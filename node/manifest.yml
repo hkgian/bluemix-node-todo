@@ -1,7 +1,7 @@
 applications:
 - memory: 256M
   instances: 1
-  name: jbtodolist5
-  host: jbtodolist5
+  name: <name of the application>
+  host: <name of the application>
   services:
-  - todo-db
+  - <name of the service>
